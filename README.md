@@ -48,14 +48,6 @@ link-park-tour/
 | **Mobile ≤ 768px** | Hamburger menu active, stacked layouts |
 | **Small mobile ≤ 480px** | Single column, adjusted typography and table scrolling |
 
-## How to Run Locally
-1. Download all files keeping the same folder structure.
-2. Open `index.html` in any modern browser (Chrome, Firefox, Edge).
-3. **# Optional: run a local server**
-   ```bash
-   npx serve .
-   ```
-*Note: Visual assets like icons and fonts require an internet connection to load via CDN.*
 
 ## License
 © 2025 Linkin Park under exclusive license to Warner Records Inc. All rights reserved. 

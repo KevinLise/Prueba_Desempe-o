@@ -10,17 +10,17 @@ A modern, responsive landing page dedicated to **Linkin Park's** comeback era. T
 - **Brand Partnerships:** Section dedicated to official sponsors like Live Nation and Mercedes-AMG.
 - **Connect:** Integrated social media links using Font Awesome icons.
 
-## 🛠️ Technical Stack
+## Technical Stack
 - **HTML5:** Semantic structure for better SEO and accessibility.
 - **CSS3:** Custom styling (via `style.css`) with Google Fonts and Linkin Park custom typography.
 - **Font Awesome 6.5.0:** Professional brand icons (Spotify, Instagram, YouTube, X).
 - **JavaScript:** Custom interactivity (via `script.js`).
 
-## 🖋️ Design Credits
+## Design Credits
 - **Typography:** Using 'Cormorant Garamond' and 'Lato' for a premium look.
 - **Visuals:** Custom icons and responsive imagery.
 
-## 📄 License & Copyright
+##  License & Copyright
 © 2025 Linkin Park under exclusive license to Warner Records Inc. All rights reserved.  
 *This project was developed for educational/tribute purposes.*
 

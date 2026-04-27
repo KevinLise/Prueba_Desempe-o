@@ -1,4 +1,4 @@
-// parkt menu
+// Hamburger menu
 const parkt = document.getElementById('parkt');
 const nav = document.getElementById('main-nav');
 

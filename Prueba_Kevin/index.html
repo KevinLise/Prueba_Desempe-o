@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" type="image/png" href="img/link.png">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link
+        href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@400;600;700&family=Lato:wght@300;400&display=swap"
+        rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+        <link href="https://fonts.cdnfonts.com/css/linkin-park-3" rel="stylesheet">
+    <title>Link & Park</title>
+</head>
+
+<body>
+
+    <!-- HEADER -->
+    <header>
+        <div class="logo">
+            <img src="img/link.png" alt="Link park logo">
+            <span>Link & Park</span>
+        </div>
+        <nav id="main-nav">
+            <ul>
+                <li><a href="#hero">Home</a></li>
+                <li><a href="#events">Events</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#gallery">Gallery</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+        <!-- Link park (móvil) -->
+        <button class="park" id="park" aria-label="Menu">
+            <span></span><span></span><span></span>
+        </button>
+    </header>
+
+    <main>
+
+        <!-- HERO -->
+        <section class="hero" id="hero">
+            <div class="hero-overlay"></div>
+            <div class="hero-content">
+                <h2>In the End</h2>
+                <p>A Night with Linkin Park</p>
+                <a href="#events" class="btn">The Next Chapter</a>
+            </div>
+        </section>
+
+        <!-- EVENTS / HORARIOS -->
+        <section class="events" id="events">
+            <h2> From Zero World Tour 2026</h2>
+            <div class="events-inner">
+
+                <!-- Lista de categorías -->
+                <div class="schele">
+                    <ul>
+                        <li>Nu Metal</li>
+                        <li>Rock Alternativo</li>
+                        <li>Rap Metal/Rap Rock</li>
+                        <li>Pop Rock</li>
+                    </ul>
+                </div>
+
+                <!-- Tabla con thead/tbody  -->
+                <div class="tab">
+                    <table>
+                        <thead>
+                            <tr>
+                                <th>Time</th>
+                                <th>Event</th>
+                                <th>Location</th>
+                                <th>Ticket</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <td>14:00</td>
+                                <td>What I've Done</td>
+                                <td>Europa</td>
+                                <td><a href="#" class="btn-buy">Buy</a></td>
+                            </tr>
+                            <tr>
+                                <td>16:00</td>
+                                <td>Somewhere I Belong</td>
+                                <td>Chile</td>
+                                <td><a href="#" class="btn-buy">Buy</a></td>
+                            </tr>
+                            <tr>
+                                <td>18:00</td>
+                                <td>Crawling</td>
+                                <td>Bogotá</td>
+                                <td><a href="#" class="btn-buy">Buy</a></td>
+                            </tr>
+                            <tr>
+                                <td>20:00</td>
+                                <td>Numb</td>
+                                <td>Estado Unidos</td>
+                                <td><a href="#" class="btn-buy">Buy</a></td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="about" id="about">
+            <div class="about-img">
+                <img src="img/fondo9.jpg" alt="Link park Banda Rock">
+            </div>
+            <div class="about-text">
+                <h2>The Breakthrough</h2>
+                <p>Their debut album, Hybrid Theory (2000), became one of the best-selling albums of the 21st century, featuring hits like "In the End" and "Crawling".</p>
+
+                <h3>Studio Albums </h3>
+                <!-- Lista semántica obligatoria -->
+                <ul class="cuisine-list">
+                    <li>Hybrid Theory</li>
+                    <li>Meteora </li>
+                    <li>Minutes to Midnight</li>
+                    <li>A Thousand Suns</li>
+                </ul>
+
+                <!-- article: info del Banda Link park -->
+                <article class="chef-highlight">
+                    <h4>Link Park</h4>
+                    <p>Mike Shinoda: Founder, rapper, guitarist, and the creative mastermind.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- MULTIMEDIA -->
+        <section class="multimedia" id="gallery">
+            <h2>Gallery</h2>
+            <!-- Video incrustado -->
+            <div class="video-wrap">
+                <a href="https://www.youtube.com/watch?v=ScNNfyq3d_w" target="_blank">
+                    <img src="img/fondo13.jpg" alt="LINK & PARK">
+                        
+                </a>
+            </div>
+            
+            <!-- Galería de imágenes -->
+            <div class="gallery-grid">
+                <img src="img/fondo4.jpg" alt="In the End">
+                <img src="img/fondo3.jpg" alt="Numb">
+                <img src="img/fondo6.jpg" alt="The Emptiness Machine ">
+                <img src="img/fondo12.jpeg" alt="Castle of Glass">
+                <img src="img/fondos1.jpeg" alt="What I've Done ">
+                <img src="img/fondo5.jpg" alt="What I've Done ">
+                <img src="img/fondo11.jpg" alt="What I've Done ">
+                <img src="img/fondo14.jpeg" alt="What I've Done ">
+            </div>
+        </section>
+
+    </main>
+
+    <!-- SPONSORS -->
+    <div class="sponsors">
+        <p>Brand Partnerships</p>
+        <ul>
+            <li>Live Nation</li>
+            <li>Haribo</li>
+            <li>Mercedes-AMG</li>
+            <li>Brooklyn Projects</li>
+        </ul>
+    </div>
+
+    <!-- FOOTER -->
+    <footer id="contact">
+        <div class="footer-inner">
+            <div class="footer-brand">
+                <span>Link & Park</span>
+                <p>From Zero World Tour · Est. 2026</p>
+                <p>contact@Linkpark.com · +1 800 123 4567</p>
+            </div>
+            <div class="footer-social">
+                <h4>Follow Us</h4>
+                <ul>
+                    <li><a href="#"><i class="fa-brands fa-spotify"></i> Spotify</a></li>
+                    <li><a href="#"><i class="fa-brands fa-instagram"></i> Instagram</a></li>
+                    <li><a href="#"><i class="fa-brands fa-youtube"></i> YouTube</a></li>
+                    <li><a href="#"><i class="fa-brands fa-x-twitter"></i> Twitter</a></li>
+                </ul>
+            </div>
+        </div>
+        <p class="footer-copy">© 2025 Linkin Park under exclusive license to Warner Records Inc. All rights reserved.
+</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
